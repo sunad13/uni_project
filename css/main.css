@@ -59,9 +59,6 @@ header .menu_icons ul li img {
   height: 20px;
   cursor: pointer;
 }
-header .menu_icons .menu_bar img:hover {
-  background-color: #ffa500;
-}
 header .menu_icons button {
   background: none;
   border: none;
@@ -201,20 +198,26 @@ header .login button:hover {
 .admission input {
   width: 270px;
   color: #313030;
-  border: 1px solid #b3b3b2;
+  border: 1px solid #b3b3b3;
   font-size: 13px;
   font-family: 'Alegreya', serif;
   margin: 0 0 10px 5px;
   padding: 3px 0;
 }
+.admission input:hover {
+  background-color: #b3b3b3;
+}
 .admission textarea {
   width: 270px;
   color: #313030;
-  border: 1px solid #b3b3b2;
+  border: 1px solid #b3b3b3;
   font-size: 13px;
   font-family: 'Alegreya', serif;
   margin-left: 5px;
   padding: 3px 0;
+}
+.admission textarea:hover {
+  background-color: #b3b3b3;
 }
 
 /****************/
@@ -367,6 +370,9 @@ header .login button:hover {
   height: 90px;
   margin: 30px 0 20px 0;
 }
+.contact .logo img:hover {
+  height: 110px;
+}
 .contact .end_line {
   border: .5px solid #313030;
 }
@@ -387,6 +393,9 @@ header .login button:hover {
 }
 .contact .about img:hover {
   height: 38px;
+  background-color: #085f63;
+  border: 3px solid #ffa500;
+  border-radius: 50%;
 }
 .contact .about li {
   display: inline;
@@ -412,10 +421,7 @@ header .login button:hover {
   border: none;
 }
 .contact input:hover {
-  background-color: #085f63;
-  color: #fff;
-  border: 3px solid #ffa500;
-  font-weight: bold; 
+  background-color: #b3b3b3;
 }
 .contact button {
   font-size: 13px;
@@ -667,6 +673,8 @@ footer small {
   /****************/
   .news_events {
     overflow: hidden;
+    width: 992px;
+    margin: 0 auto;
   }
   .news_events h3 {
     font-size: 32px;
