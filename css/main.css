@@ -667,6 +667,8 @@ footer small {
   /****************/
   .news_events {
     overflow: hidden;
+    width: 992px;
+    margin: 0 auto;
   }
   .news_events h3 {
     font-size: 32px;
