@@ -15,15 +15,15 @@ a {
   text-decoration: none;
 }
 .container {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .link {
   background-color: #085f63;
   color: #fff;
-  font-size: 13px;
-  width: 136px;
-  height: 33px;
-  margin: 10px 0 30px 0;
+  font-size: 16px;
+  width: 160px;
+  height: 40px;
+  margin: 20px 0 50px 0;
   font-family: 'Roboto', sans-serif;
   border: none;
   cursor: pointer;
@@ -78,7 +78,7 @@ header .login button:hover {
   background-size: cover;
   color: #fff;
   text-align: center;
-  padding: 171px 0;
+  padding: 180px 0;
 }
 .main_visual h2 {
   font-size: 13px;
@@ -98,7 +98,7 @@ header .login button:hover {
   height: 33px;
   border: 1px solid #fff;
   color: #fff;
-  font-size: 10px;
+  font-size: 11px;
   background: transparent;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -108,10 +108,6 @@ header .login button:hover {
   color: #085f63;
   font-weight: bold; 
 }
-.main_visual span {
-  color: #085f63;
-  font-weight: bold;
-}
 
 /****************/
 /* courses */
@@ -120,42 +116,41 @@ header .login button:hover {
   color: #313030;
 }
 .courses h3 {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
-  padding: 30px 0 2px 0;
+  padding: 40px 0 2px 0;
 }
 .courses hr {
-  border: 1px solid #085f63;
-  width: 18px;
+  border: 1.5px solid #085f63;
+  width: 20px;
   margin: 0 auto;
-}
-.courses img {
-  width: 260px;
-  height: 135px;
 }
 .courses .text_main {
-  width: 240px;
+  width: 300px;
   margin: 0 auto;
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
-  padding: 8px 0 15px 0;
-  font-family: 'Alegreya', serif;
-}
-.courses h4 {
-  font-size: 15px;
-  text-align: left;
-  padding-bottom: 5px;
-}
-.courses .text {
-  font-size: 13px;
-  text-align: justify;
-  margin-right: 10px;
+  padding: 20px 0;
   font-family: 'Alegreya', serif;
 }
 .courses .sec_c {
   margin: 0 auto;
-  width: 260px;
+  width: 300px;
   text-align: center;
+}
+.courses img {
+  width: 300px;
+  height: 200px;
+}
+.courses h4 {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.courses .text {
+  font-size: 16px;
+  text-align: justify;
+  font-family: 'Alegreya', serif;
 }
 
 /****************/
@@ -163,58 +158,57 @@ header .login button:hover {
 /****************/
 .admission {
   background-color: #b3b3b3;
-  padding-bottom: 30px;
   border-top: 1px solid #8f8f8e;
   border-bottom: 1px solid #8f8f8e;
+  text-align: center;
 }
 .admission .container {
-  width: 290px;
+  width: 300px;
   margin: 0 auto;
 }
 .admission h3 {
-  font-size: 18px;
+  font-size: 24px;
   color: #fff;
   text-align: center;
-  padding: 30px 0 2px 0;
+  padding: 40px 0 2px 0;
 }
 .admission hr {
-  border: 1px solid #fff;
-  width: 18px;
+  border: 1.5px solid #fff;
+  width: 20px;
   margin: 0 auto;
 }
 .admission .form {
-  width: 290px;
-  margin-top: 10px;
-  padding: 5px 0;
+  width: 300px;
+  margin-top: 20px;
   font-family: 'Alegreya', serif;
-  font-size: 13px;
+  font-size: 16px;
   background-color: #fff;
   color: #313030;
 }
 .admission p {
   text-align: center;
-  margin: 0 20px 5px 20px;
+  padding: 10px 0;
 }
 .admission input {
-  width: 270px;
+  width: 265px;
   color: #313030;
   border: 1px solid #b3b3b3;
-  font-size: 13px;
+  font-size: 16px;
   font-family: 'Alegreya', serif;
-  margin: 0 0 10px 5px;
-  padding: 3px 0;
+  margin: 0 0 10px 10px;
+  padding: 5px;
 }
 .admission input:hover {
   background-color: #b3b3b3;
 }
 .admission textarea {
-  width: 270px;
+  width: 265px;
   color: #313030;
   border: 1px solid #b3b3b3;
-  font-size: 13px;
+  font-size: 16px;
   font-family: 'Alegreya', serif;
-  margin-left: 5px;
-  padding: 3px 0;
+  margin: 0 0 5px 10px;
+  padding: 5px; 
 }
 .admission textarea:hover {
   background-color: #b3b3b3;
@@ -229,43 +223,42 @@ header .login button:hover {
   border-top: 1px solid #c2c2c2;
   border-bottom: 1px solid #c2c2c2;
 }
-.research img {
-  width: 260px;
-  height: 135px;
-}
 .research h3 {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
-  padding: 30px 0 2px 0;
+  padding: 40px 0 2px 0;
 }
 .research hr {
-  border: 1px solid #085f63;
-  width: 18px;
+  border: 1.5px solid #085f63;
+  width: 20px;
   margin: 0 auto;
-}
-.research h4 {
-  font-size: 15px;
-  text-align: left;
-  padding-bottom: 5px;
 }
 .research .text_main {
-  width: 260px;
+  width: 300px;
   margin: 0 auto;
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
-  padding: 8px 0 15px 0;
-  font-family: 'Alegreya', serif;
-}
-.research .text {
-  font-size: 13px;
-  text-align: justify;
-  margin-right: 10px;
+  padding: 20px 0;
   font-family: 'Alegreya', serif;
 }
 .research .sec_r {
   margin: 0 auto;
-  width: 260px;
+  width: 300px;
   text-align: center;
+}
+.research img {
+  width: 300px;
+  height: 200px;
+}
+.research h4 {
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.research .text {
+  font-size: 16px;
+  text-align: justify;
+  font-family: 'Alegreya', serif;
 }
 
 /****************/
@@ -276,25 +269,25 @@ header .login button:hover {
   text-align: center;
 }
 .news_events h3 {
-  font-size: 18px;
+  font-size: 24px;
   text-align: center;
-  padding: 30px 0 2px 0;
+  padding: 40px 0 2px 0;
 }
-.news_events hr {
-  border: 1px solid #085f63;
-  width: 18px;
-  margin: 0 auto;
+.news_events .hl_line {
+  border: 1.5px solid #085f63;
+  width: 20px;
+  margin: 0 auto 10px;
 }
 .news_events h4 {
   text-align: left;
-  font-size: 15px;
-  margin-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .news_events h5 {
   text-align: left;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-top: 2px;
 }
 .news_events p {
   text-align: left;
@@ -302,54 +295,59 @@ header .login button:hover {
 }
 .news_events .news {
   display: flex;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #f3f2f2;
 }
 .news_events .news img {
-  width: 130px;
-  height: 91px;
-  padding-right: 10px;
+  width: 133px;
+  height: 93px;
+  padding-right: 5px;
 }
 .news_events .outer_n {
-  width: 290px;
+  width: 300px;
   margin: 0 auto;
 }
-.news_events .outer_n hr {
-  border: 5px solid #fff;
+.news_events .outer_n .mid_line_01 {
+  border: 8px solid #fff;
 }
 .news_events .outer_ev {
-  width: 290px;
+  width: 300px;
   margin: 0 auto;
 }
 .news_events .events {
   display: flex;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #f3f2f2;
 }
 .news_events .events ul {
   background-color: #085f63;
   color: #fff;
   text-align: center;
-  padding: 15px 10px;
+  padding: 10px 15px;
   margin: 10px 0 10px 10px;
 }
-.news_events .events span {
+.news_events .events li {
   font-size: 16px;
+}
+.news_events .events span {
+  font-size: 26px;
   font-weight: 600;
 }
 .news_events .events .time {
-  margin: 10px 10px 10px 23px;
+  margin: 10px;
 }
 .news_events .events .time span {
   color: #f3f2f2;
+  font-size: 18px;
 }
 .news_events .events img {
-  height: 12px;
+  height: 14px;
   margin-top: 5px;
 }
-.news_events .outer_ev hr {
-  width: 230px;
-  border: .5px solid #313030;
+.news_events .outer_ev .mid_line_02 {
+  width: 240px;
+  border: .3px solid #313030;
+  margin: 0 auto;
 }
 
 /****************/
@@ -360,63 +358,66 @@ header .login button:hover {
   color: #313030;
 }
 .contact .container {
-  width: 260px;
+  width: 300px;
   margin: 0 auto;
 }
 .contact h3 {
   text-align: center;
 }
 .contact .logo img {
-  height: 90px;
-  margin: 30px 0 20px 0;
-}
-.contact .logo img:hover {
-  height: 100px;
+  height: 120px;
+  margin-top: 40px;
 }
 .contact .end_line {
   border: .5px solid #313030;
+  margin-top: 25px;
 }
 .contact h4 {
-  margin-top: 20px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 .contact .head_line {
-  border: 1px solid #085f63;
-  width: 18px;
+  border: 1.5px solid #085f63;
+  width: 20px;
+  margin-top: 2px;
 }
 .contact p {
-  margin: 10px 0;
-  font-size: 13px;
+  margin: 20px 0;
+  font-size: 16px;
   font-family: 'Alegreya', serif;
 }
+.contact .about p {
+  text-align: justify;
+}
 .contact .about img {
-  height: 30px;
+  height: 40px;
 }
 .contact .about img:hover {
-  height: 40px;
+  height: 34px;
   background-color: #085f63;
   border: 3px solid #ffa500;
   border-radius: 50%;
 }
 .contact .about li {
   display: inline;
-  margin-right: 5px;
+  margin-right: 10px;
   cursor: pointer;
 }
 .contact .info img {
-  width: 13px;
-  margin-right: 10px;
+  width: 16px;
+  margin-right: 15px;
 }
 .contact span {
   color: #ebeecf;
 }
 .contact .email_text {
   display: flex;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .contact input {
   padding: 5px;
   color: #313030;
-  font-size: 13px;
+  font-size: 16px;
   font-family: 'Alegreya', serif;
   border: none;
 }
@@ -424,10 +425,10 @@ header .login button:hover {
   background-color: #b3b3b3;
 }
 .contact button {
-  font-size: 13px;
+  font-size: 16px;
   background-color: #085f63;
   color: #fff;
-  padding: 0 10px;
+  padding: 0 18px;
   font-family: 'Roboto', sans-serif;
   border: none;
   cursor: pointer;
@@ -447,11 +448,11 @@ footer {
   color: #fff;
   font-size: 10px;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 footer small {
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -479,25 +480,22 @@ footer small {
     font-size: 17px;
     width: 200px;
     height: 40px;
-    margin: 10px 0 30px 0;
+    margin: 20px 0 50px 0;
   }
   
   /****************/
   /* header_pc */
   /****************/
   header .container {
-    padding: 10px 50px;
-    width: 90%;
+    width: 952px;
+    margin: 0 auto;
+    padding: 10px 20px;
   }
   header .logo img {
     height: 74px;
   }  
   header .pc {
     display: inline;
-    justify-content: space-between;
-  }
-  header .menu_icons .pc {
-    margin-left: 19px;
   }
   header .pc li a {
     color: #000;
@@ -525,7 +523,7 @@ footer small {
   /* main_visual_pc */
   /****************/
   .main_visual {
-    padding: 200px 0;
+    padding: 220px 0;
   }
   .main_visual h2 {
     font-size: 22px;
@@ -558,7 +556,7 @@ footer small {
   }
   .courses img {
     width: 320px;
-    height: 160px;
+    height: 210px;
   }  
   .courses .course_container {
     display: flex;
@@ -571,7 +569,7 @@ footer small {
     width: 37%;
   }
   .courses .sec_c .link {
-    margin: 20px auto 80px;
+    margin: 20px auto 60px;
   }
   .courses h4 {
     font-size: 20px;
@@ -586,9 +584,6 @@ footer small {
   /****************/
   /* admission_pc */
   /****************/
-  .admission {
-    padding-bottom: 80px; 
-  }
   .admission .container {
     width: 792px;
   }  
@@ -603,26 +598,24 @@ footer small {
   .admission .form {
     min-width: 792px;
     font-size: 17px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-top: 30px;
   }
   .admission p {
     padding: 20px 0;
   }
   .admission input {
-    width: 230px;
+    width: 233px;
     font-size: 17px;
-    padding: 5px 0;
-    margin-left: 20px; 
+    padding: 5px;
   }
   .admission tbody {
     display: flex;
   }
   .admission textarea {
-    width: 742px;
+    width: 752px;
     font-size: 17px;
     padding-top: 5px;
-    margin-left: 20px;
   }
   
   /****************/
@@ -643,7 +636,7 @@ footer small {
   }
   .research img {
     width: 320px;
-    height: 160px;
+    height: 210px;
   }  
   .research .research_container {
     display: flex;
@@ -656,7 +649,7 @@ footer small {
     width: 37%;
   }
   .research .sec_r .link {
-    margin: 20px auto 80px;
+    margin: 20px auto 60px;
   }
   .research h4 {
     font-size: 20px;
@@ -673,66 +666,70 @@ footer small {
   /****************/
   .news_events {
     overflow: hidden;
-    width: 992px;
+    width: 952px;
     margin: 0 auto;
   }
   .news_events h3 {
     font-size: 32px;
     padding: 50px 0 5px 0;
   }
-  .news_events hr {
+  .news_events .hl_line {
     border: 2px solid #085f63;
     width: 30px;
   }
   .news_events .outer_n {
     float: left;
-    width: 55%;
-    margin-left: 30px;
+    width: 53%;
+  }
+  .news_events .outer_n .mid_line_01 {
+    border: 10px solid #fff;
   }
   .news_events .outer_ev {
     float: right;
-    width: 34%;
-    margin-right: 30px;
+    width: 36%;
   }
   .news_events h4 {
-    font-size: 20px;
+    font-size: 21px;
     margin: 20px 0;
   } 
   .news_events h5 {
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px 0;
   }
   .news_events p {
-    font-size: 14px;
+    font-size: 15px;
+    text-align: justify;
   }
   .news_events .news {
-    width: 530px;
-    margin-bottom: 22px;
+    width: 545px;
   }
   .news_events .news img {
-    width: 170px;
-    height: 108px;
-    padding-right: 20px;
+    width: 215px;
+    height: 130px;
+    padding-right: 15px;
   }
   .news_events .pc {
-    width: 330px;
+    width: 300px;
   }
   .news_events .outer_n hr {
     border: 0px solid #fff;
   }
   .news_events .events {
-    width: 325px;
+    width: 335px;
   }
   .news_events .events ul {
     font-size: 16px;
-    padding: 15px;
-    margin: 18px 0 10px 10px;
+    padding: 14px;
+    margin: 18px 5px 19px 15px;
+  }
+  .news_events .events li {
+    font-size: 19px;
   }
   .news_events .events p {
-    width: 215px;
+    width: 224px;
   }
   .news_events .events span {
-    font-size: 28px;
+    font-size: 30px;
   }
   .news_events .events .time span {
     font-size: 18px;
@@ -745,26 +742,21 @@ footer small {
   }
   .news_events .outer_n .link {
     width: 330px;
-  }
-  .news_events .link {
-    margin: 20px 0 80px 0;
+    margin-top: 37px;
   }
 
   /****************/
   /* contact_pc */
   /****************/
   .contact .container {
-    width: 812px;
+    width: 952px;
   }  
   .contact .logo img {
-    height: 130px;
-    margin: 30px 0;
-  }
-  .contact .logo img:hover {
     height: 140px;
-  }  
+    margin-top: 50px;
+  }
   .contact .end_line {
-    width: 812px;
+    width: 952px;
   }
   .contact .the_end {
     display: flex;
@@ -775,37 +767,38 @@ footer small {
   .contact .head_line {
     border: 2px solid #085f63;
     width: 23px;
-    margin: 5px 0 40px 0;
+    margin: 5px 0 30px 0;
   }
   .contact p {
     font-size: 17px;
   }
   .contact .about {
-    width: 35%;
+    width: 38%;
   }
+  .contact .about p {
+    width: 283px;
+}
   .contact .about img {
     height: 40px;
-    margin: 20px 0 80px 0;
+    margin-bottom: 50px;
   }
   .contact .about img:hover {
-    height: 50px;
+    height: 34px;
   }  
   .contact .about li {
     margin-right: 15px;
   }
   .contact .info {
-    width: 28%;
-    margin-left: 53px;
+    width: 30%;
   }
   .contact .info img {
     width: 20px;
   }  
   .contact .letter {
-    width: 28%;
-    margin-left: 53px;
+    width: 32%;
   }
   .contact .letter p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   
   /****************/
