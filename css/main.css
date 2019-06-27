@@ -679,7 +679,7 @@ footer small {
   }
   .news_events .outer_n {
     float: left;
-    width: 53%;
+    width: 57%;
   }
   .news_events .outer_n .mid_line_01 {
     border: 10px solid #fff;
@@ -694,18 +694,19 @@ footer small {
   } 
   .news_events h5 {
     font-size: 15px;
-    padding: 10px 0;
+    padding-top: 18px;
+    padding-bottom: 6px;
   }
   .news_events p {
     font-size: 15px;
     text-align: justify;
   }
   .news_events .news {
-    width: 545px;
+    width: 532px;
   }
   .news_events .news img {
-    width: 215px;
-    height: 130px;
+    width: 204px;
+    height: 136px;
     padding-right: 15px;
   }
   .news_events .pc {
@@ -742,7 +743,7 @@ footer small {
   }
   .news_events .outer_n .link {
     width: 330px;
-    margin-top: 37px;
+    margin-top: 25px;
   }
 
   /****************/
