@@ -35,11 +35,9 @@ a {
   border: 3px solid #ffa500;
   font-weight: bold; 
 }
-.fas fa-caret-up {
-  font-size: 24px;
-}
 #goToTopBtn {
-  padding: 20px 30px;
+  font-size: 48px;
+  padding: 5px 25px 10px;
   background: #085f63;
   color: white;
   position: fixed;
